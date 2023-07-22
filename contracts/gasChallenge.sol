@@ -31,7 +31,7 @@ contract gasChallenge {
         uint[10] memory newnumbers = numbers;
        
         for (uint i = 0; i < 10 ; i +=1) {
-           cachednumbers[i] = 0;
+           newnumbers[i] = 0;
         }
         numbers = newnumbers;
     }
